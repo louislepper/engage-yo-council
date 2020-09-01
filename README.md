@@ -1,7 +1,7 @@
 Engage Yo' Council
 =================
 
-Engage Yo' Council was made as part of a 24 hour hackathon by [Louis Lepper](https://louislepper.co.nz),
+Engage Yo' Council was made as part of a 24 hour hackathon by [Louis Lepper](http://louislepper.co.nz),
 [Jake Coppinger](https://jakecoppinger.com),
 Glenn Southern,
 [Ben Partridge](http://benpartridge.me/),
