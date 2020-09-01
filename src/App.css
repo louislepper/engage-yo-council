@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+/*  YOLO */
+.overlays {
+  z-index: -100 !important;
+}
+
+.mapClass {
+  border: 1px red;
+}
+
+#right {
+  width:70vw;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mapboxgl-popup-content.mapboxgl-popup-content {
+  width: 90vw;
+  max-width: 400px;
+}
+
+.mapboxgl-popup-close-button {
+  font-size: 15px;
+}
+
+
+#search_overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+
+
+  min-width: 400px;
+  
+  padding: 5px 10px;
+  
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid gray;
+  border-radius: 5px;
+}
+
+#search_container {
+  display: flex;
+}
+
+#search_container h3 {
+  margin: 0;
+  transform: translate(0, 18%);
+}
+
+#search_container input {
+  margin-left: 10px;
+  width: 310px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#search_overlay {
+  border-radius: 3px;
+  border: none !important;
+  background-color: white !important;
+  opacity: 0.97;
+  padding: 10px !important;
+}
+
+#search_container {
+  display: flex;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+#search_container input {
+  flex-grow: 1;
+  margin: 0 !important;
+}
+
+#search_suggestions {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+
+#search_suggestions button {
+  flex-grow: 1;
+  padding: 6px 0;
+}
+
+#search_overlay button {
+  padding: 6px;
+  width: 100%;
+}
+
+#search_overlay p {
+  margin: 20px 0 10px 0 !important;
+} 
